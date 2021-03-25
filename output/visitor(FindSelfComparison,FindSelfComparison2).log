@@ -1,0 +1,40 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< Issue1472:com.github.spotbugs >--------------------
+[INFO] Building com.github.spotbugs 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spotbugs-maven-plugin:4.2.2:check (default-cli) > :spotbugs @ com.github.spotbugs >>>
+[INFO] 
+[INFO] --- spotbugs-maven-plugin:4.2.2:spotbugs (spotbugs) @ com.github.spotbugs ---
+[INFO] Fork Value is true
+[INFO] Done SpotBugs Analysis....
+[INFO] 
+[INFO] <<< spotbugs-maven-plugin:4.2.2:check (default-cli) < :spotbugs @ com.github.spotbugs <<<
+[INFO] 
+[INFO] 
+[INFO] --- spotbugs-maven-plugin:4.2.2:check (default-cli) @ com.github.spotbugs ---
+[INFO] BugInstance size is 1
+[INFO] Error size is 0
+[INFO] Total bugs: 1
+[ERROR] High: Nonsensical self computation of flags with itself in Issue1472.testSA_LOCAL_SELF_COMPUTATION() [Issue1472] At Issue1472.java:[line 4] SA_LOCAL_SELF_COMPUTATION
+[INFO] 
+
+
+To see bug detail using the Spotbugs GUI, use the following command "mvn spotbugs:gui"
+
+
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.468 s
+[INFO] Finished at: 2021-03-25T17:45:16+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal com.github.spotbugs:spotbugs-maven-plugin:4.2.2:check (default-cli) on project com.github.spotbugs: failed with 1 bugs and 0 errors  -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

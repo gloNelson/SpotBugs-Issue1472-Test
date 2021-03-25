@@ -1,0 +1,25 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< Issue1472:com.github.spotbugs >--------------------
+[INFO] Building com.github.spotbugs 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spotbugs-maven-plugin:4.2.2:check (default-cli) > :spotbugs @ com.github.spotbugs >>>
+[INFO] 
+[INFO] --- spotbugs-maven-plugin:4.2.2:spotbugs (spotbugs) @ com.github.spotbugs ---
+[INFO] Fork Value is true
+[INFO] Done SpotBugs Analysis....
+[INFO] 
+[INFO] <<< spotbugs-maven-plugin:4.2.2:check (default-cli) < :spotbugs @ com.github.spotbugs <<<
+[INFO] 
+[INFO] 
+[INFO] --- spotbugs-maven-plugin:4.2.2:check (default-cli) @ com.github.spotbugs ---
+[INFO] BugInstance size is 0
+[INFO] Error size is 0
+[INFO] No errors/warnings found
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.786 s
+[INFO] Finished at: 2021-03-25T17:44:45+08:00
+[INFO] ------------------------------------------------------------------------
